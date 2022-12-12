@@ -1,3 +1,13 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-heading: #1b0760;
+  --color-body: #918ca4;
+  --color-border: #ccc;
+  --border-radius: 30px;
+}
+
 *,
 *::after,
 *::before {
@@ -8,16 +18,6 @@
 
 html {
   font-size: 62.5%;
-}
-
-:root {
-  --color-primary: #2584ff;
-  --color-secondary: #00d9ff;
-  --color-accent: #ff3400;
-  --color-heading: #1b0760;
-  --color-body: #918ca4;
-  --color-border: #ccc;
-  --border-radius: 30px;
 }
 
 body {
@@ -367,4 +367,22 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+
+/* Media */
+
+.media {
+  display: flex;
+}
+
+.media__title {
+  margin-top: 0;
+}
+
+.media__body {
+  margin: 0 2rem;
+}
+
+.media__image {
+  margin-top: 1rem;
 }
