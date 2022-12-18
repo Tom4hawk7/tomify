@@ -270,8 +270,8 @@ a {
 }
 
 .btn--stretched {
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
 
 @media screen and (min-width: 1024px) {
