@@ -3,7 +3,7 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
-  src: url("/fonts/Inter[slnt\,wght].woff") format("woff");
+  src: local("Inter Regular"), url("Inter[slnt,wght].woff") format("woff");
 }
 
 :root {
